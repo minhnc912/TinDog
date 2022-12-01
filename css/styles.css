@@ -132,9 +132,45 @@ p {
     padding: 3% 2%;
 }
 
-@media (max-width: 1440px ) {
-    .container-fluid {
-        padding-left: 10px;
-        padding-right: 10px;
+/* Cta */
+
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+.header_cta {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social_logo {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1079px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1079px) {
+    .download-button {
+        margin-right: 0.8%;
     }
 }
