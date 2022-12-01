@@ -132,6 +132,9 @@ p {
     padding: 3% 2%;
 }
 
-@media (max-width:  ) {
-
+@media (max-width: 1440px ) {
+    .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
